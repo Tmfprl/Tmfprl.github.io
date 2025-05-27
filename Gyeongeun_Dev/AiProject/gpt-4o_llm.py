@@ -1,6 +1,13 @@
 import openai
 
 # insert api key 
+# 텍스트 파일에서 API 키 불러오기
+with open("apiKey/openai-api-key.txt", "r") as f:
+    api_key = f.read().strip()  # 공백, 개행 제거
+
+# 클라이언트 생성
+client = openai.OpenAI(api_key=api_key)
+
 
 response = client.chat.completions.create(
     model="gpt-4o",

@@ -7,7 +7,6 @@ from google.protobuf.json_format import MessageToDict  # JSON 변환 모듈
 # 1. 서비스 계정 인증 설정 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "apiKey/google-api-key.json"
 
-
 # 2. Vision API 클라이언트 생성
 client = vision.ImageAnnotatorClient()
 

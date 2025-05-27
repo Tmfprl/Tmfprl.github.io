@@ -3631,10 +3631,10 @@
                                                     ]
                                                 },
                                                 "text": "능",
-                                                "confidence": 0.8592431
+                                                "confidence": 0.858982
                                             }
                                         ],
-                                        "confidence": 0.90349007
+                                        "confidence": 0.90335953
                                     },
                                     {
                                         "property": {
@@ -3688,7 +3688,7 @@
                                                     ]
                                                 },
                                                 "text": "순",
-                                                "confidence": 0.83379483
+                                                "confidence": 0.8325572
                                             },
                                             {
                                                 "property": {
@@ -3717,10 +3717,10 @@
                                                     ]
                                                 },
                                                 "text": "차",
-                                                "confidence": 0.6765541
+                                                "confidence": 0.6683683
                                             }
                                         ],
-                                        "confidence": 0.75517446
+                                        "confidence": 0.7504628
                                     },
                                     {
                                         "property": {
@@ -3774,7 +3774,7 @@
                                                     ]
                                                 },
                                                 "text": "정",
-                                                "confidence": 0.76638365
+                                                "confidence": 0.7645831
                                             },
                                             {
                                                 "boundingBox": {
@@ -3798,10 +3798,10 @@
                                                     ]
                                                 },
                                                 "text": "렬",
-                                                "confidence": 0.66021925
+                                                "confidence": 0.6501418
                                             }
                                         ],
-                                        "confidence": 0.7133014
+                                        "confidence": 0.7073624
                                     },
                                     {
                                         "property": {
@@ -3855,7 +3855,7 @@
                                                     ]
                                                 },
                                                 "text": "용",
-                                                "confidence": 0.7665452
+                                                "confidence": 0.7664676
                                             },
                                             {
                                                 "property": {
@@ -3884,13 +3884,13 @@
                                                     ]
                                                 },
                                                 "text": "이",
-                                                "confidence": 0.84441805
+                                                "confidence": 0.84315485
                                             }
                                         ],
-                                        "confidence": 0.8054816
+                                        "confidence": 0.80481124
                                     }
                                 ],
-                                "confidence": 0.8279581
+                                "confidence": 0.8260495
                             },
                             {
                                 "boundingBox": {
@@ -4535,7 +4535,7 @@
                             }
                         ],
                         "blockType": "TEXT",
-                        "confidence": 0.8674087
+                        "confidence": 0.8670205
                     },
                     {
                         "boundingBox": {
@@ -6268,7 +6268,7 @@
                         "confidence": 0.920026
                     }
                 ],
-                "confidence": 0.90384066
+                "confidence": 0.90376294
             }
         ],
         "text": "효율적인 폴더 관리노하우\n폴더명은숫자로 넘버링\n-글자보다는 숫자/1,2,3 보다는 01.02 혹은 001002추천\n무한생성가능순차 정렬용이\n중요도,빈도수 높은 폴더 상위 배치\n비슷한 업무끼리 숫자묶거나 하위 폴더 생성\n넘버링 대신 날짜_업무명 형식 히스토리 파악 편리"
