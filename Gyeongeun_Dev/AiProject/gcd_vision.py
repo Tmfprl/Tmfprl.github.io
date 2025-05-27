@@ -5,7 +5,8 @@ from google.cloud import vision
 from google.protobuf.json_format import MessageToDict  # JSON 변환 모듈
 
 # 1. 서비스 계정 인증 설정 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "apiKey/vision-api-key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "apiKey/google-api-key.json"
+
 
 # 2. Vision API 클라이언트 생성
 client = vision.ImageAnnotatorClient()
@@ -30,15 +31,19 @@ if response.text_annotations:
     # 7. JSON 변환 후 저장
     response_dict = MessageToDict(response._pb)  # ✅ `_pb` 사용하여 변환
 
-    # 8. OCR 결과 저장 (텍스트 write)
-    with open("ocr_result.txt", "w", encoding="utf-8") as text_file:
-        text_file.write(extracted_text)
-    print(f"\n✅ OCR 텍스트 저장 완료: ocr_result.txt")
+    # 8. 결과 저장 경로 지정
+    output_dir = "testResults"  # 원하는 폴더명
+    os.makedirs(output_dir, exist_ok=True)  # 폴더 없으면 생성
 
-    # 9. OCR 전체 결과 저장 (JSON)
-    with open("ocr_result.json", "w", encoding="utf-8") as json_file:
+    # 9. 텍스트 결과 저장
+    with open(os.path.join(output_dir, "ocr_result.txt"), "w", encoding="utf-8") as text_file:
+        text_file.write(extracted_text)
+    print(f"\n✅ OCR 텍스트 저장 완료: {output_dir}/ocr_result.txt")
+
+    # 10. JSON 결과 저장
+    with open(os.path.join(output_dir, "ocr_result.json"), "w", encoding="utf-8") as json_file:
         json.dump(response_dict, json_file, indent=4, ensure_ascii=False)
-    print(f"\n✅ OCR 결과 JSON 저장 완료: ocr_result.json")
+    print(f"\n✅ OCR 결과 JSON 저장 완료: {output_dir}/ocr_result.json")
 
 else:
     print("\n❌ OCR 결과 없음")

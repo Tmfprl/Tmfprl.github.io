@@ -1,6 +1,6 @@
 import openai
 
-client = openai.OpenAI(api_key="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")
+# insert api key 
 
 response = client.chat.completions.create(
     model="gpt-4o",
