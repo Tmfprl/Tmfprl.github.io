@@ -22,6 +22,7 @@ def extract_text_from_image(image_bytes: bytes) -> str:
     response = client.document_text_detection(image=image)
     
     if response.text_annotations:
+        print(response.text_annotations)
         return response.text_annotations[0].description
     return ""
 
