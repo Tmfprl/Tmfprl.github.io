@@ -106,10 +106,11 @@ This project is licensed under the MIT License.
 ## 👩‍💻 Author
 
 Developed by GYEONGEUN PARK (2025 4학년 1학기)
+
 Course: *Python Programming Practice*
 
-```
 
----
+
+
 
 
