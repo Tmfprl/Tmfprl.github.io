@@ -1,4 +1,3 @@
 # Tmfprl.gihub.io
 
-lanuage : react
-build tool : vite
+참고 : GyeongeunDev/AiProject/.Readme
