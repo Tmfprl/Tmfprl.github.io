@@ -1,6 +1,8 @@
 
 # AiProject - Voice-based Lecture Generator
 
+# ** 현재 openAi 및 gcp ai 모델 토큰 만료로 실행되지 않음
+
 ## 📌 Description
 2025년 1학기 **파이썬프로그래밍실무** 강의에서 진행한 개인 프로젝트입니다.  
 강의 정리본을 기반으로 **보이스 형태의 강의 자료**를 생성하는 애플리케이션입니다.  
@@ -108,6 +110,7 @@ This project is licensed under the MIT License.
 Developed by GYEONGEUN PARK (2025 4학년 1학기)
 
 Course: *Python Programming Practice*
+
 
 
 
