@@ -1,4 +1,4 @@
 # Tmfprl.gihub.io
 
-참고 : GyeongeunDev/AiProject/Readme.md
+참고 : Gyeongeun_Dev/AiProject/Readme.md
 
